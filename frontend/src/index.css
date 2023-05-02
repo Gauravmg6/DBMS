@@ -1,0 +1,93 @@
+body{
+  text-align: center;
+}
+
+h1{
+  margin-bottom: 4rem;
+}
+
+#homepage{
+  width: 70%;
+  margin: 5rem auto;
+  margin-top: 2rem;
+  padding: 20px 0px;
+  border-radius: 3px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.719);
+  box-shadow: 0px 5px 10px black;
+}
+
+section .service-images{
+  width: 200px;
+  height: 150px;
+  padding: 20px 10px 0px;
+  border-radius: 3px;
+  margin: 12px;
+  font-size: 15px;
+  text-align: center;
+  align-items: center;
+  transition: box-shadow .5s;
+}
+
+section .service-images p{
+  text-transform: capitalize;
+  font-size: medium;
+}
+
+section button{
+  
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.service-images:hover{
+  box-shadow: 0 0 11px black; 
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.sub{
+  display:flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 15rem;
+  margin-bottom: 2rem;
+}
+
+.sub_card{
+  width: 700px;
+  background-color: white;
+  border-color: #000;
+  border-radius: 15px;
+  padding: 70px 70px;
+  text-align: center;
+  transition: box-shadow .5s;
+}
+
+.sub_card:hover{
+  box-shadow: 0 0 11px white; 
+}
+
+.sub_btn{
+  padding: 10px 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background: #000;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  transition: box-shadow .5s;
+  box-shadow: 0px 0px 5px white;
+}
+
+.sub_btn:hover{
+  box-shadow: 0 0 11px black; 
+}
